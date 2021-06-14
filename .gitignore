@@ -1,0 +1,6 @@
+node_modules
+.presta-load-cache
+build
+*.env
+*.swp
+.DS_Store

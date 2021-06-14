@@ -1,0 +1,23 @@
+{
+  "name": "presta-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production presta 'app/pages/**/*.js'",
+    "dev": "presta watch 'app/pages/**/*.js'",
+    "format": "prettier --write app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "presta": "^0.32.2",
+    "prettier": "^2.3.1",
+    "prisma": "^2.24.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.24.1"
+  }
+}
